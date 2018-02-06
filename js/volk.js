@@ -7,5 +7,5 @@ function Volk(){
 }
 
 Volk.SPEED = 3;
-Volk.prototype = Object.create(Runner);
+Volk.prototype = Object.create(Runner.prototype);
 Volk.prototype.constructor = Volk;

@@ -7,5 +7,5 @@ function Zayec(){
 }
 
 Zayec.SPEED = 5;
-Zayec.prototype = Object.create(Runner);
+Zayec.prototype = Object.create(Runner.prototype);
 Zayec.prototype.constructor = Zayec;
